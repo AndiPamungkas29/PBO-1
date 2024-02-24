@@ -21,7 +21,7 @@ public class Main {
         Period period = Period.between(dataLahir, today);
         int umur = period.getYears();
 
-        System.out.println("\n------ Output ------");
+        System.out.println("\n------ Data Casis ------");
         System.out.println("Nama: " + nama);
         System.out.println("Jenis Kelamin: " + jenisKelamin);
         System.out.println("Umur: " + umur);
